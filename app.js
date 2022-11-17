@@ -10,7 +10,7 @@ const {
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the Harry Potter Actor CLI! Here you can select a character and see the name of the actor who played them in the films.');
+    res.send('Wel to the Harry Potter Actor CLI! Here you can select a character and see the name of the actor who played them in the films.');
 });
 
 app.get('/characters', async (req, res) => {
